@@ -4,7 +4,7 @@
     "description": "Prettier formatting for Handlebars files",
     "version": "0.0.3",
     "publisher": "mfeckies",
-    "repository": "https://github.com/mfeckie/handlebars-formatter.git",
+    "repository": "https://github.com/janvotava/handlebars-formatter.git",
     "engines": {
         "vscode": "^1.25.0"
     },
@@ -15,8 +15,7 @@
         "*"
     ],
     "main": "./out/extension",
-    "contributes": {
-    },
+    "contributes": {},
     "scripts": {
         "vscode:prepublish": "npm run compile",
         "compile": "tsc -p ./",
@@ -33,6 +32,6 @@
     },
     "dependencies": {
         "@types/prettier": "^1.13.2",
-        "prettier": "^1.14.3"
+        "prettier": "github:janvotava/prettier"
     }
 }
